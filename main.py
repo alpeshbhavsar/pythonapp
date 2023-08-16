@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()  # Required to load the previously defined environment variables
 
 hostName = "0.0.0.0"
-serverPort = 8080
+serverPort = 80
 
 
 class PostgresApiServer(BaseHTTPRequestHandler):
